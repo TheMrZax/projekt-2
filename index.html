@@ -13,7 +13,21 @@
         <h1>Balony</h1>
     </header>
 
-    <script></script>
+    <script>
+        const header = document.querySelector("header");
+        const h1 = document.querySelector("h1");
+        let image = true;
+        let title = true;
+
+        const changeImage = () => {
+            image = !image;
+            title = !title;
+            header.style.backgroundImage = image ? "url(bg.jpg);" : "url(bees.png);";
+            h1.textContent = title ? "Balon" : "Pszczółka"
+        }
+
+        header.addEventListener("click", changeImage)
+    </script>
 </body>
 
 </html>

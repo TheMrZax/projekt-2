@@ -1,4 +1,9 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
     min-height: 100vh;
     background-image: url(bg.jpg);
     background-repeat: no-repeat;
