@@ -8,8 +8,10 @@ body {
 header h1 {
     position: absolute;
     top: 10%;
-    left: 40%;
+    left: 50%;
     color: white;
     font-family: sans-serif;
     font-size: 100px;
+    font-weight: 400;
+    text-shadow: 0 0 10px black;
 }
