@@ -1,0 +1,15 @@
+body {
+    min-height: 100vh;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1 {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 100px;
+}
